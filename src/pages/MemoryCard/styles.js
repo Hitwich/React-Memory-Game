@@ -6,10 +6,10 @@ export const container = styled.div`
     height: 100vh;
     background-color: ${props => props.theme.colors.background};
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
     overflow: hidden;
     align-items:center;
+    gap:2vh;
 
 `
 export const cardContainer = styled.div`
@@ -29,7 +29,7 @@ column-gap: 0px;
     grid-template-columns: repeat(auto-fill,minmax(20vw,4fr));
     padding-right: 7px;
     gap:0;
-    row-gap: 35px;
+    row-gap: 15px;
 
 
 
