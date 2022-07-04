@@ -10,6 +10,7 @@ export const container = styled.div`
     overflow: hidden;
     align-items:center;
     gap:2vh;
+    margin-top:1vh;
 
 `
 export const cardContainer = styled.div`
